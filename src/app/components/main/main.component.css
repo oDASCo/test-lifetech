@@ -1,0 +1,18 @@
+.main {
+  height: calc(100vh - 64px - 96px);
+  width: 100%;
+  overflow-y: scroll; }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%; }
+
+@media screen and (min-width: 2000px) {
+  .main {
+    height: calc(100vh - 240px - 150px); } }
+@media screen and (max-width: 767px) {
+  .main {
+    height: calc(100vh - 64px - 130px); } }
+
+/*# sourceMappingURL=main.component.css.map */
