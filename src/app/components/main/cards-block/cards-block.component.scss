@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: #eeeeee;
-  padding: 70px 0;
+  padding: 0;
 
   &__cards {
     display: flex;
@@ -16,13 +16,13 @@
 
   &__card {
     width: 44%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     box-shadow: 0 0 3px 2px #cacaca;
   }
 
   &__cardMain {
     padding: 20px;
-    height: 150px;
+    height: 140px;
     background: linear-gradient(to bottom, #bdbdbd, #bdbdbd, #bdbdbd, #807e7f);
     display: flex;
     align-items: flex-end;
@@ -76,6 +76,11 @@
         font-size: 46px;
       }
     }
+  }
+}
+@media screen and (max-width: 991px){
+  .cardsBlock {
+    padding: 70px 0;
   }
 }
 @media screen and (max-width: 767px){
