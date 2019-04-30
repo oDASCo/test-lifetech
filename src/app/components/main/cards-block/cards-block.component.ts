@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cards-block.component.html',
   styleUrls: ['./cards-block.component.scss']
 })
-export class CardsBlockComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class CardsBlockComponent{
+  cards = new Array(4);
 }

@@ -13,68 +13,15 @@
     flex-wrap: wrap;
     max-width: 400px;
   }
-
-  &__card {
+  test-life-card{
     width: 44%;
-    margin-bottom: 20px;
-    box-shadow: 0 0 3px 2px #cacaca;
-  }
-
-  &__cardMain {
-    padding: 20px;
-    height: 140px;
-    background: linear-gradient(to bottom, #bdbdbd, #bdbdbd, #bdbdbd, #807e7f);
-    display: flex;
-    align-items: flex-end;
-  }
-
-  &__cardMainTitle {
-    font-size: 24px;
-    color: white;
-  }
-
-  &__cardControls {
-    background-color: white;
-    padding: 15px 25px;
-    display: flex;
-    justify-content: space-between;
-
-    i {
-      color: #757575;
-      font-size: 16px;
-      cursor: pointer;
-    }
   }
 }
 @media screen and (min-width: 2000px){
   .cardsBlock {
     padding: 60px 0;
-
     &__cards {
       max-width: 800px;
-    }
-
-    &__card {
-      width: 45%;
-      margin-bottom: 60px;
-    }
-
-    &__cardMain {
-      padding: 50px;
-      height: 300px;
-    }
-
-    &__cardMainTitle {
-      font-size: 46px;
-      color: white;
-    }
-
-    &__cardControls {
-      padding: 50px 60px;
-
-      i {
-        font-size: 46px;
-      }
     }
   }
 }
@@ -86,9 +33,8 @@
 @media screen and (max-width: 767px){
   .cardsBlock {
     padding: 40px 30px;
-    &__card {
+    test-life-card{
       width: 100%;
     }
-
   }
 }

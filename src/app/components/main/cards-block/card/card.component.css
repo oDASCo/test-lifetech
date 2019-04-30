@@ -1,0 +1,41 @@
+.cardsBlock__card {
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px 2px #cacaca; }
+.cardsBlock__cardMain {
+  padding: 20px;
+  height: 140px;
+  background: linear-gradient(to bottom, #bdbdbd, #bdbdbd, #bdbdbd, #807e7f);
+  display: flex;
+  align-items: flex-end; }
+.cardsBlock__cardMainTitle {
+  font-size: 24px;
+  color: white; }
+.cardsBlock__cardControls {
+  background-color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between; }
+  .cardsBlock__cardControls i {
+    color: #757575;
+    font-size: 16px;
+    cursor: pointer; }
+
+@media screen and (min-width: 2000px) {
+  .cardsBlock__card {
+    width: 45%;
+    margin-bottom: 60px; }
+  .cardsBlock__cardMain {
+    padding: 50px;
+    height: 300px; }
+  .cardsBlock__cardMainTitle {
+    font-size: 46px;
+    color: white; }
+  .cardsBlock__cardControls {
+    padding: 50px 60px; }
+    .cardsBlock__cardControls i {
+      font-size: 46px; } }
+@media screen and (max-width: 767px) {
+  .cardsBlock__card {
+    width: 100%; } }
+
+/*# sourceMappingURL=card.component.css.map */

@@ -20,6 +20,10 @@ body {
 ul{
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 test-life-cards-block{
   width: 50%;
 }
@@ -43,6 +47,7 @@ test-life-info-block{
 ::-webkit-scrollbar-thumb:hover {
   background: #b4b4b4;
 }
+
 
 @media screen and (max-width: 991px){
   test-life-cards-block{

@@ -1,0 +1,64 @@
+.cardsBlock {
+  &__card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px 2px #cacaca;
+  }
+
+  &__cardMain {
+    padding: 20px;
+    height: 140px;
+    background: linear-gradient(to bottom, #bdbdbd, #bdbdbd, #bdbdbd, #807e7f);
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__cardMainTitle {
+    font-size: 24px;
+    color: white;
+  }
+
+  &__cardControls {
+    background-color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      color: #757575;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (min-width: 2000px){
+  .cardsBlock {
+    &__card {
+      width: 45%;
+      margin-bottom: 60px;
+    }
+
+    &__cardMain {
+      padding: 50px;
+      height: 300px;
+    }
+
+    &__cardMainTitle {
+      font-size: 46px;
+      color: white;
+    }
+
+    &__cardControls {
+      padding: 50px 60px;
+      i {
+        font-size: 46px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .cardsBlock {
+    &__card {
+      width: 100%;
+    }
+  }
+}

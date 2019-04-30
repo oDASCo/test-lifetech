@@ -1,0 +1,17 @@
+<ul class="header__nav" [ngClass]="{open: isNavOpen}">
+  <div class="header__navIcon" (click)="toggleNav()" *ngIf="isNavOpen">
+    <i class="fas fa-times"></i>
+  </div>
+  <li class="header__navItem">home</li>
+  <li class="header__navItem active" routerLinkActive="active">
+    <a [routerLink]="['/about']"> about us </a>
+  </li>
+  <li class="header__navItem">gallery</li>
+  <li class="header__navItem">reviews</li>
+  <li class="header__navItem">contacts</li>
+</ul>
+<div class="header__navIcon" (click)="toggleNav()">
+  <div class="header__navIconLine"></div>
+  <div class="header__navIconLine"></div>
+  <div class="header__navIconLine"></div>
+</div>
